@@ -22,7 +22,7 @@ export default class Tasks {
     const task = {
       description,
       completed: false,
-      index: this.list.length + 1,
+      index: this.list.length,
     };
     this.list.push(task);
     this.list.sort(dynamicSort('index'));
